@@ -1,10 +1,13 @@
 # PingMarker
 Starts Digital Ocean droplets in various regions and pings a list of servers for comparison.
 
-# Hypothesis
+## Hypothesis **_TODO:_ Formulate proper hypothesis**
+Network error, Network quality, changing response time over short term 
+(Variable load?), changing response time over day/week (Possibly 
+correlated to website userbase work hours, but very hard to prove?)  
 
-
-# Experiment
+## Experiment **_TODO:_ Explain Vagrantfile, runscript.sh, 
+spreadsheet? ** 
 In order to analyze the ping behavior of three servers:
 
 * 128.199.144.199
@@ -15,10 +18,10 @@ And knowing that ping time is very location-dependent, it would be nice
 to have results from a few different places in the world. This will let 
 me control for slow connectivity and instability from my local ISP.
 
-# Results
+## Results **_TODO_ Run experiment**
 
 
-# Discussion
+## Discussion
 
 
-# Conclusion
+## Conclusion

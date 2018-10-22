@@ -1,5 +1,6 @@
 #Secrets (DigitalOcean token, etc.)
 *.secret
+.vagrant/
 
 #Log files
 *.log

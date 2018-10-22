@@ -1,6 +1,9 @@
 #Secrets (DigitalOcean token, etc.)
 *.secret
 
+#Log files
+*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

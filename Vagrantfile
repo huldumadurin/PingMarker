@@ -9,7 +9,7 @@ Vagrant.configure('2') do |config|
 	provider.ssh_key_name = ENV['DOTOKENNAME']
         provider.token = ENV['DOTOKEN']
         provider.image = 'ubuntu-16-04-x64'
-        provider.region = 'nyc1'
+        provider.region = ENV['DOREGION']
         provider.size = '1gb'
       end
   end

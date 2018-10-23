@@ -51,11 +51,9 @@ Server 3 is located in Singapore, see Server 2.
 
 As expected, the Singapore server seems to show long response times to the the New York droplet and vice versa, while the european server has medium response times from both of them, which is what we would expect, as Europe is located somewhere in the middle geographically.
 
-![Figure 2](https://raw.githubusercontent.com/huldumadurin/PingMarker/master/GoogleMapsDistanceNYSGP.PNG "Google Maps showing distance from New York to Singapore")
-
 __Map data courtesy of Google Maps__
 
-
+![Figure 2](https://raw.githubusercontent.com/huldumadurin/PingMarker/master/GoogleMapsDistanceNYSGP.PNG "Google Maps showing distance from New York to Singapore")
 
 All servers show quite stable response times, so I can't determine anything about the loads running on them.
 

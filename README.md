@@ -35,13 +35,18 @@ I have cut away the middle portion of the results, since they're all quite stabl
 
 ## Discussion
 We can immediately see that Server 3 is the closest server to Amsterdam (According to the online calculator, around 300km or less). 
+
 Server 2 has sub-millisecond response times to New York. This corresponds to less than 60km according to the calculator.
+
 Server 3 has the fastest minimum response time at less than 0.4ms. This corresponds to less than 35km according to the calculator.
 
 ## Conclusion
 Cross-referencing with status.digitalocean.com, I can try to determine the locations of the servers. 
+
 Server 1 is located in Europe, but I can't say whether it's in London, France or Amsterdam, just from this data. Also, I am not sure how fast exactly the signal might be moving, so these results are not very precise.
+
 Server 2 is located in New York, possibly in another new york datacentre, but not further away than that, simply guessing from the list of regions Digital ocean offers.
+
 Server 3 is located in Singapore, see Server 2.
 
 All servers show quite stable response times, so I can't determine anything about the loads running on them.

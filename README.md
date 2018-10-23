@@ -38,7 +38,7 @@ We can immediately see that Server 3 is the closest server to Amsterdam (Accordi
 
 Server 2 has sub-millisecond response times to New York. This corresponds to less than 60km according to the calculator.
 
-Server 3 has the fastest minimum response time at less than 0.4ms. This corresponds to less than 35km according to the calculator.
+Server 3 has the fastest minimum response time at less than 0.4ms to Singapore. This corresponds to less than 35km according to the calculator.
 
 ## Conclusion
 Cross-referencing with status.digitalocean.com, I can try to determine the locations of the servers. 

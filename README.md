@@ -21,14 +21,14 @@ And knowing that ping time is very location-dependent, it would be nice
 to have results from a few different places in the world. This will let 
 me control for slow connectivity and instability from my local ISP.
 
-This will be done by spinning up Digital Ocean droplets in 3 different regions (nyc1, fra1 and *), and running a ping test with a count of 50 packets against each server.
+This will be done by spinning up Digital Ocean droplets in 3 different regions: New York City, France and Amsterdam (nyc1, fra1 and sgp1), and running a ping test with a count of 50 packets against each server.
 
-I will then use the calculator at https://wintelguy.com/wanlat.html to check if my results are in tune with the physical limitations of information propagation. Equipment delay and Local Loop Length will be set to 0 as I am only looking for a loose estimate based on distance.
+I will then use the calculator at https://wintelguy.com/wanlat.html to check if my results are in tune with the physical limitations of information propagation. Equipment delay and Local Loop Length will be set to 0 as I am only looking for a loose estimate based on distance. I will be using the default value of 200km/s.
 
 ## Instructions to replicate
-Export your Digital Ocean token and its name as DOTOKEN and DOTOKENNAME, then simply run runTest.sh. You will be prompted for a region, and then the Vagrantfile will be used to carry out the test. Then, after typing in the IP address shown in the line "Connection to [ADDRESS] closed.", the results will be copied to the current directory.
+Export your Digital Ocean token and its name to your shell as DOTOKEN and DOTOKENNAME, then simply run runTest.sh. You will be prompted for a region, and then the Vagrantfile will be used to carry out the test. Then, after typing in the IP address shown in the line "Connection to [ADDRESS] closed.", the results will be copied to the current directory.
 
-## Results **_TODO_ Run experiment**
+## Results 
 I have cut away the middle portion of the results, since they're all quite stable over time. The full results are available in combinedlogs.txt
 
 ![Figure 1](https://raw.githubusercontent.com/huldumadurin/PingMarker/master/LogsExcerpt.PNG "Ping result table abbr.")

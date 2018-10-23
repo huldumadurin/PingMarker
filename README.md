@@ -31,7 +31,7 @@ I will then use the calculator at https://wintelguy.com/wanlat.html to check if 
 ## Results **_TODO_ Run experiment**
 I have cut away the middle portion of the results, since they're all quite stable over time. The full results are available in combinedlogs.txt
 
-![Figure 1](https://raw.githubusercontent.com/huldumadurin/PingMarker/master/LogsExcerpt.png "Ping result table abbr.")
+![Figure 1](https://raw.githubusercontent.com/huldumadurin/PingMarker/master/LogsExcerpt.PNG "Ping result table abbr.")
 
 ## Discussion
 

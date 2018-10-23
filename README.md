@@ -49,6 +49,8 @@ Server 2 is located in New York, possibly in another New York region, but not fu
 
 Server 3 is located in Singapore, see Server 2.
 
+As expected, the Singapore server seems to be long response times to the the New York droplet and vice versa, while the european server has medium response times to both of them, which is what we would expect.
+
 All servers show quite stable response times, so I can't determine anything about the loads running on them.
 
 The overhead, both between servers close to each other, and across large distances is very hard to calculate due to variations in infrastructure, network congestion and probably other factors as well. This makes the experiment quite imprecise, since we're benchmarking a long chain of events(transport, response and transport back again) where each part of the chain can be affected differently.

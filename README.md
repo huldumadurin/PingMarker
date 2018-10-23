@@ -23,7 +23,7 @@ me control for slow connectivity and instability from my local ISP.
 
 This will be done by spinning up Digital Ocean droplets in 3 different regions: New York City, France and Amsterdam (nyc1, fra1 and sgp1), and running a ping test with a count of 50 packets against each server.
 
-I will then use the calculator at https://wintelguy.com/wanlat.html to check if my results are in tune with the physical limitations of information propagation. Equipment delay and Local Loop Length will be set to 0 as I am only looking for a loose estimate based on distance. I will be using the default value of 200km/s.
+I will then use the calculator at https://wintelguy.com/wanlat.html to try to determine what Digital Ocean region each server is located in. Equipment delay and Local Loop Length will be set to 0 as I am only looking for a loose estimate based on distance. I will be using the default value of 200km/s.
 
 ## Instructions to replicate
 Export your Digital Ocean token and its name to your shell as DOTOKEN and DOTOKENNAME, then simply run runTest.sh. You will be prompted for a region, and then the Vagrantfile will be used to carry out the test. Then, after typing in the IP address shown in the line "Connection to [ADDRESS] closed.", the results will be copied to the current directory.
@@ -33,7 +33,7 @@ I have cut away the middle portion of the results, since they're all quite stabl
 
 ![Figure 1](https://raw.githubusercontent.com/huldumadurin/PingMarker/master/LogsExcerpt.PNG "Ping result table abbr.")
 
-## Discussion
+## Calculations
 We can immediately see that Server 3 is the closest server to Amsterdam (According to the online calculator, around 300km or less). 
 
 Server 2 has sub-millisecond response times to New York. This corresponds to less than 60km according to the calculator.
@@ -45,7 +45,7 @@ Cross-referencing with status.digitalocean.com, I can try to determine the locat
 
 Server 1 is located in Europe, but I can't say whether it's in London, France or Amsterdam, just from this data. Also, I am not sure how fast exactly the signal might be moving, so these results are not very precise.
 
-Server 2 is located in New York, possibly in another new york datacentre, but not further away than that, simply guessing from the list of regions Digital ocean offers.
+Server 2 is located in New York, possibly in another New York region, but not further away than that, simply judging from the list of regions Digital ocean offers.
 
 Server 3 is located in Singapore, see Server 2.
 
